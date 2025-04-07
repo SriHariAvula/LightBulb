@@ -54,4 +54,66 @@ body {
 .bulb-container {
     height: 100vh;
     width: 40%;
+    /* background-color: white; */
+}
+
+.wire {
+    width: 5px;
+    height: 220px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.wire-connection {
+    width: 10px;
+    height: 10px;
+    background-color: dimgray;
+    margin: 0 auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.socket-top {
+    margin: 0 auto;
+    width: 25px;
+    height: 10px;
+    background-color: gray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -5px;
+    border-bottom: 1px solid black;
+}
+
+.socket-bottom {
+    width: 25px;
+    height: 15px;
+    background-color: darkgray;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.bulb-top {
+    background-color: #ccc5b9;
+    /* opacity: 0.8; */
+    width: 25px;
+    height: 15px;
+    margin: 0 auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: -2px;
+}
+
+.bulb-bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc5b9;
+    /* opacity: 0.8; */
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+.bulbOn {
+    background-color: lightyellow;
+    box-shadow: 0px 0px 20px 10px lightyellow;
 }
